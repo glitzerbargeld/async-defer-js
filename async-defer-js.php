@@ -2,9 +2,9 @@
 
 /**
 * 
- * Plugin Name: Blüten Deckel
+ * Plugin Name: Async-Defer-JS
  * Description: Add async or defer attributes to script enqueues
- * Author: Mike Kormendy
+ * Author: Torben Jäckel (Code comes from Mike Kormendy on Stack Overflow)
  * @param  String  $tag     The original enqueued <script src="...> tag
  * @param  String  $handle  The registered unique name of the script
  * @return String  $tag     The modified <script async|defer src="...> tag
